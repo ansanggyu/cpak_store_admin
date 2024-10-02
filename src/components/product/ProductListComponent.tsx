@@ -4,6 +4,7 @@ import {IPageResponse, IProduct} from "../../types/product.ts";
 import PageComponent from "../common/PageComponent.tsx";
 import {useSearchParams} from "react-router-dom";
 
+
 const initialState: IPageResponse = {
     dtoList: [],
     prev: false,
